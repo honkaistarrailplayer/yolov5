@@ -1,0 +1,8 @@
+path: d:\yolov5\YOLO_train\  # 或者使用正斜杠 /yolov5/YOLO_train/
+train: d:\yolov5\YOLO_train\images\train  # 训练集路径
+val: d:\yolov5\YOLO_train\images\val  # 验证集路径，确保这是正确的验证集文件夹
+names:
+  - "car"  # 类别名称列表
+  - "plane"
+  - "dog"
+  - "cat"
